@@ -2,7 +2,7 @@
 
 Repositório com minhas soluções dos problemas do [Beecrowd](https://www.beecrowd.com.br/), resolvidos durante meus estudos de lógica de programação e Java.
 
-> 📅 Meta: um exercício por dia para registrar minha evolução como desenvolvedor.
+> Meta: um exercício por dia para registrar minha evolução como desenvolvedor.
 
 ---
 
@@ -21,7 +21,7 @@ beecrowd/
 
 ---
 
-## ⚡ Como adicionar uma solução automaticamente
+##  Como adicionar uma solução automaticamente
 
 Clone o repositório e use o script `novo.sh`:
 
@@ -41,7 +41,7 @@ O script cria o arquivo na pasta certa, você cola sua solução, salva e ele j�
 
 ---
 
-## 📊 Progresso
+##  Progresso
 
 | Linguagem | Resolvidos |
 |-----------|-----------|
