@@ -6,7 +6,7 @@ Repositório com minhas soluções dos problemas do [Beecrowd](https://www.beecr
 
 ---
 
-## 📁 Organização
+## Organização
 
 ```
 beecrowd/
