@@ -20,11 +20,12 @@ fi
 LINGUAGEM=$(echo "$LINGUAGEM" | tr '[:upper:]' '[:lower:]')
 
 case "$LINGUAGEM" in
-  java)   EXT="java" ;;
-  python) EXT="py"   ;;
-  c)      EXT="c"    ;;
+  java)   EXT="java"; COMENTARIO="//" ;;
+  python) EXT="py";   COMENTARIO="#"  ;;
+  c)      EXT="c";    COMENTARIO="//" ;;
+  sql)    EXT="sql";  COMENTARIO="--" ;;
   *)
-    echo "Linguagem não suportada: $LINGUAGEM (use java, python ou c)"
+    echo "Linguagem não suportada: $LINGUAGEM (use java, python, c ou sql)"
     exit 1
     ;;
 esac
@@ -37,7 +38,7 @@ mkdir -p "$PASTA"
 
 # Cria o arquivo se não existir
 if [ ! -f "$ARQUIVO" ]; then
-  echo "// Beecrowd #$NUMERO — Solução em $LINGUAGEM" > "$ARQUIVO"
+  echo "$COMENTARIO Beecrowd #$NUMERO — Solução em $LINGUAGEM" > "$ARQUIVO"
   echo "Arquivo criado: $ARQUIVO"
 fi
 
