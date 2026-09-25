@@ -1,4 +1,4 @@
-# 🧩 Beecrowd — Soluções
+# Beecrowd — Soluções
 
 Repositório com minhas soluções dos problemas do [Beecrowd](https://www.beecrowd.com.br/), resolvidos durante meus estudos de lógica de programação e Java.
 
